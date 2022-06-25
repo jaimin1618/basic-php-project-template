@@ -12,16 +12,15 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		  <div class="container-fluid">
-		    <a class="navbar-brand" href="#">Project_Name</a>
+		    <a class="navbar-brand" href="index.php"><?php echo PROJECT_NAME; ?></a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
 		    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 		      <div class="navbar-nav">
-		        <a class="nav-link active" aria-current="page" href="#">Home</a>
-		        <a class="nav-link active" href="#">About us</a>
-		        <a class="nav-link active" href="#">Contact us</a>
-		        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Application</a>
+		        <a class="nav-link active" aria-current="page" href="<?php echo in_public_url('home.php'); ?>">Home</a>
+		        <a class="nav-link active" href="<?php echo in_public_url('about.php'); ?>">About us</a>
+		        <a class="nav-link active" href="<?php echo in_public_url('contact.php'); ?>">Contact us</a>
 		      </div>
 		    </div>
 		  </div>
