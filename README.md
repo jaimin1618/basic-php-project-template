@@ -1,1 +1,1 @@
-# fullstack-project-template
+# fullstack-project-template for PHP-development
